@@ -1,6 +1,9 @@
 <x-guest-layout>
     <form method="POST" action="{{ route('password.store') }}">
         @csrf
+        <!-- resources/views/auth/passwords/reset.blade.php -->
+
+        <p>We recommend using a password manager to generate and store secure passwords.</p>
 
         <!-- Password Reset Token -->
         <input type="hidden" name="token" value="{{ $request->route('token') }}">

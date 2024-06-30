@@ -1,6 +1,9 @@
 <x-guest-layout>
     <form method="POST" action="{{ route('register') }}">
         @csrf
+        <!-- resources/views/auth/register.blade.php -->
+
+        <p>We recommend using a password manager to generate and store secure passwords.</p>
 
         <!-- Name -->
         <div>

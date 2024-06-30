@@ -1,6 +1,13 @@
 <?php
 
 return [
+    // config/app.php
+
+    'providers' => [
+        // Other Service Providers
+
+        App\Providers\FortifyServiceProvider::class,
+    ],
 
     /*
     |--------------------------------------------------------------------------
